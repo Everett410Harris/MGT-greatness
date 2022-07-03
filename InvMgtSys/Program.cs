@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace InvMgtSys
 {
@@ -16,7 +17,7 @@ namespace InvMgtSys
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new UserModuleForm());
+            Application.Run(new UserForm());
         }
     }
 }
